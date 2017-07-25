@@ -1,0 +1,7 @@
+dependencies: \
+  /Users/dharmesh/Desktop/iosFirstDemo/node_modules/react-native/Libraries/NativeAnimation/RCTAnimationUtils.m \
+  /Users/dharmesh/Desktop/iosFirstDemo/node_modules/react-native/Libraries/NativeAnimation/RCTAnimationUtils.h \
+  /Users/dharmesh/Desktop/iosFirstDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/dharmesh/Desktop/iosFirstDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/dharmesh/Desktop/iosFirstDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/dharmesh/Desktop/iosFirstDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h

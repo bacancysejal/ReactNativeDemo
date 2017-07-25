@@ -1,0 +1,38 @@
+{
+  "name": "iosFirstDemo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "build-ios-bundle": "react-native bundle --entry-file index.ios.js --platform ios --dev false --bundle-output ios/main.jsbundle --assets-dest ios",
+    "build-ios": "react-native run-ios --configuration Release",
+    "build-android": "cd android && ./gradlew assembleRelease"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^5.0.0",
+    "native-base": "^2.1.1",
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.2",
+    "react-native-busy-indicator": "^1.1.0",
+    "react-native-image-to-base64": "^0.1.0",
+    "react-native-imagepicker": "^2.0.0",
+    "react-native-loader": "^1.1.0",
+    "react-native-material-design": "^0.3.7",
+    "react-native-root-toast": "^1.1.2",
+    "react-native-router-flux": "^3.39.2",
+    "react-native-vector-icons": "^4.2.0",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.2",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "1.9.2",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
